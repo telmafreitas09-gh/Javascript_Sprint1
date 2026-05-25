@@ -17,7 +17,7 @@ div#carousel {
     -webkit-transition: all .3s ease-in-out;
     -moz-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
-}
+}'  '
 
 div#carousel-title a {
     text-decoration: none;
@@ -117,4 +117,27 @@ button {
     color: #fff;
     border: 0px;
     border-radius: 10px;
+}
+
+#avance_btn, 
+#volte_btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%)
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    font-size: 30px;
+    background: #1351d8;
+    z-index: 10;
+}
+
+#avance_btn {
+    right: 10px;
+}
+
+#volte_btn {
+    left: 10px;
 }

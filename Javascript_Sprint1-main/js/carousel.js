@@ -27,7 +27,7 @@ class Carousel {
 
                 document.getElementById("avance_btn").addEventListener("click",function(){Carousel.Next();}); 
 
-                 document.getElementById("volte_btn").addEventListener("click",function(){Carousel.Next();}); 
+                 document.getElementById("volte_btn").addEventListener("click",function(){Carousel.Prev();}); 
             }
             
         } else {
